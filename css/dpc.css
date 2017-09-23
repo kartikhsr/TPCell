@@ -1,0 +1,11 @@
+#dpc{
+	width:100%;
+	border-collapse: collapse;}
+	tr:nth-of-type(all){
+		background: #0F9;}
+
+#td{
+	background-color:#000;
+	padding:5px 10px;
+	font-size:12px;}
+

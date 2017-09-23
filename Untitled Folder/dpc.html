@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8" class="no-js" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>TEMPLATE</title>
+    <meta name="description" content="">
+    <!-- CSS FILES -->
+    <link rel="stylesheet" type="text/css" href="css/stylel.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" data-name="skins">
+    <link rel="stylesheet" href="css/layout/wide.css" data-name="layout">
+    <link rel="stylesheet" href="css/fractionslider.css">
+    <link rel="stylesheet" href="css/style-fraction.css">
+    <link rel="stylesheet" type="text/css" href="css/switcher.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/tpc.css" media="screen">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>    <![endif]-->
+    <!-- time -->
+    <script type="text/javascript">
+tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+function GetClock(){
+var d=new Date();
+var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
+if(nmin<=9) nmin="0"+nmin
+if(nsec<=9) nsec="0"+nsec;
+
+document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+"";
+}
+
+window.onload=function(){
+GetClock();
+setInterval(GetClock,1000);
+}
+</script><!---->
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <section class="wrapper">
+      <!--Start Header-->
+      <header id="header" class="clearfix">
+        <div id="top-bar">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-7 hidden-xs top-info"><span>Phone:
+                  (01662)-263-057</span> <span><i class="fa fa-envelope"></i>Email:
+                  gju.tpo@gmail.com</span> <span style="margin-right:"><i id="clockbox"></i></span>
+              </div>
+              <div class="col-sm-5 top-info">
+                <ul>
+                  <li><a href="" class="my-tweet"><i class="fa fa-twitter"></i></a><br>
+                  </li>
+                  <li><a href="" class="my-facebook"><i class="fa fa-facebook"></i></a><br>
+                  </li>
+                  <li><a href="" class="my-skype"><i class="fa fa-skype"></i></a><br>
+                  </li>
+                  <li><a href="" class="my-pint"><i class="fa fa-pinterest"></i></a><br>
+                  </li>
+                  <li><a href="" class="my-rss"><i class="fa fa-rss"></i></a><br>
+                  </li>
+                  <li><a href="" class="my-google"><i class="fa fa-google-plus"></i></a><br>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- LOGO bar -->
+        <div id="logo-bar" class="clearfix">
+          <!-- Container -->
+          <div class="container">
+            <div class="row">
+              <!-- Logo / Mobile Menu -->
+              <div class="col-xs-12">
+                <div id="logo">
+                  <h1><a href="index.html"><img src="images/LOG.png" alt="LOGO"></a></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Container / End --> </div>
+        <!--LOGO bar / End-->
+        <!-- Navigation
+================================================== -->
+        <div class="navbar navbar-default navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="row">
+              <div class="navbar-header"> <button type="button" class="navbar-toggle"
+                  data-toggle="collapse" data-target=".navbar-collapse"> <span
+                    class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+                  <span class="icon-bar"></span> <span class="icon-bar"></span>
+                </button> </div>
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li ><a href="index.html">Home</a> </li>
+                  <li><a href="#">About Us</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="vision_mission.html">Vision &amp; Mission</a></li>
+                      <li><a href="role_activity.html">Role &amp; Activities</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Test Series</a>
+                    <ul class="dropdown-menu">
+                      <li> <a href="about.html">Aptitude Questions</a> </li>
+                      <li><a href="services.html">Coding Questions</a></li>
+                      <li><a href="faq.html">Company Wise Questions</a></li>
+                      <li><a href="sidebar-right.html">GD Topics</a></li>
+                      <li><a href="sidebar-left.html">Campus Interview Questions
+                          of Indian Navy</a></li>
+                      <li><a href="404-page.html">Online Quiz</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">For Recruiters</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="recruit_gju.html">Why Recruit at GJU</a></li>
+                      <li><a href="placement_procedure.html">Placement Procedure</a></li>
+                      <li><a href="placement_data.html">Placement Data</a></li>
+                      <li><a href="brochure.html">Placement Brochure</a></li>
+                      <li><a href="past_recruiters.html">Past Recruiters</a></li>
+                      <li><a href="facility.html">Facilities</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Announcements</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Upcoming Drives</a></li>
+                      <li><a href="t&amp;w.html">Workshops and Seminars</a></li>
+                      <li><a href="tpresult.html">Placement Result</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Gallery</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="gallery.html">Images</a></li>
+                      <li><a href="gallery_news.html">News Section</a></li>
+                      <li><a href="video_gallery.html">Videos</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">For Students</a>
+                    <ul class="dropdown-menu" style="overflow-y:scroll">
+                      <li><a href="interview.html">Interview Tips</a></li>
+                      <li><a href="resume.html">Resume Tips</a></li>
+                      <li><a href="gd.html">Gd Tips</a></li>
+                      <li><a href="training_letter.html">Training Letter</a></li>
+                      <li><a href="registration.html">Registration</a></li>
+                      <li><a href="do_and_dont.html">Do's &amp; Don't</a></li>
+                      <li><a href="feedback.html">Feedback &amp; Suggestion</a></li>
+                    </ul>
+                  </li>
+                  <li class="active"><a href="#">Contact</a>
+                    <ul class="dropdown-menu">
+                      <li ><a href="tpc.html">TPC</a></li>
+                      <li class="active"><a href="dpc.html">DPC</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--/.row --> </div>
+          <!--/.container --> </div>
+      </header>
+      <!--End Header-->
+      <section class="wrapper">
+        <section class="page_head">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <h2>DPC </h2>
+                <nav id="breadcrumbs">
+                  <ul>
+                    <li>You are here:</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a>Contact</a></li>
+                    <li>DPC</li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--start wrapper-->
+        <section class="container">
+        <center>
+<div class="card" style="border:1px solid #000">
+ <center> <img src="images/dpc/raghav.jpg"  alt="Avatar" style="width:40%" ></center>
+  <div class="cont" >
+    <h4><b>Raghav Khera(DPC)</b></h4> 
+    <p>14013068</p>
+    <p>CSE</p>
+    <p>raghavkhera7@gmail.com</p>
+  </div>
+ 
+  </div>
+
+<div class="card" style="border:1px solid #000">
+ <center> <img src="images/dpc/madhav.jpg"  alt="Avatar" style="width:40%" ></center>
+  <div class="cont" >
+    <h4><b>Madhav Nagpal(DPC)</b></h4> 
+    <p>14032033</p>
+    <p>PTG</p>
+    <p>madhavnagpal1@gmail.com</p>
+  </div>
+ 
+  </div>
+  
+<div class="card" style="border:1px solid #000">
+ <center> <img src="images/dpc/ankita.jpg"  alt="Avatar" style="width:40%" ></center>
+  <div class="cont" >
+    <h4><b>Ankita Mishra(JDPC)</b></h4> 
+    <p>14013208</p>
+    <p>PTg</p>
+    <p>cutiemishra18@gmail.com</p>
+  </div>
+ 
+  </div>
+
+<div class="card" style="border:1px solid #000">
+ <center> <img src="images/dpc/amit.jpg"  alt="Avatar" style="width:40%" ></center>
+  <div class="cont" >
+    <h4><b>Amit Chaudhary(DPC)</b></h4> 
+    <p>14152004</p>
+    <p>ECE</p>
+    <p>aaamit.chaudhary2013@gmail.com</p>
+  </div>
+ 
+  </div>
+
+<div class="card" style="border:1px solid #000">
+ <center> <img src="images/dpc/mohit.jpg"  alt="Avatar" style="width:40%" ></center>
+  <div class="cont" >
+    <h4><b>Mohit(DPC)</b></h4> 
+    <p>14162013</p>
+    <p>M.E</p>
+    <p>mk43171@gmail.com</p>
+  </div>
+ 
+  </div>
+
+<div class="card" style="border:1px solid #000">
+ <center> <img src="images/dpc/shubham.jpg"  alt="Avatar" style="width:40%" ></center>
+  <div class="cont" >
+    <h4><b>Shubham Kumar(DPC)</b></h4> 
+    <p>15141901</p>
+    <p>B.M.E</p>
+    <p>shubham05bhagat@gmail.com</p>
+  </div>
+ 
+  </div>
+<div class="card" style="border:1px solid #000">
+ <center> <img src="images/dpc/shubham_saini.jpg"  alt="Avatar" style="width:40%" ></center>
+  <div class="cont" >
+    <h4><b>Shubham Saini(DPC)</b></h4> 
+    <p>15083004</p>
+    <p>F.T</p>
+    <p>sbmsaini@gmail.com</p>
+  </div>
+ 
+  </div>
+
+<div class="card" style="border:1px solid #000">
+ <center> <img src="images/dpc/swati.jpg"  alt="Avatar" style="width:40%" ></center>
+  <div class="cont" >
+    <h4><b>Swati(DPC)</b></h4> 
+    <p>15094021</p>
+    <p>Bio-Nano.Tech</p>
+    <p>yadavswati9431@gmail.com</p>
+  </div>
+ 
+  </div>
+
+<div class="card" style="border:1px solid #000">
+ <center> <img src="images/dpc/ajay.jpg"  alt="Avatar" style="width:40%" ></center>
+  <div class="cont" >
+    <h4><b>Ajay(DPC)</b></h4> 
+    <p>14013068</p>
+    <p>E.V.S</p>
+    <p>ajychauhan7@gmail.com</p>
+  </div>
+ 
+  </div>
+
+<div class="card" style="border:1px solid #000">
+ <center> <img src="images/dpc/mahima.jpg"  alt="Avatar" style="width:40%" ></center>
+  <div class="cont" >
+    <h4><b>Mahima Sharma(DPC)</b></h4> 
+    <p>15106029</p>
+    <p>M.B.A</p>
+    <p>mahisharma1207@gmail.com</p>
+  </div>
+ 
+  </div>
+<div class="card" style="border:1px solid #000">
+ <center> <img src="images/dpc/ayushi.jpg"  alt="Avatar" style="width:40%" ></center>
+  <div class="cont" >
+    <h4><b>Aayushi Singh(DPC)</b></h4> 
+    <p>14125004</p>
+    <p>Pharmacy</p>
+    <p>aayushisingh6920@gmail.com</p>
+  </div>
+ 
+  </div>
+
+<div class="card" style="border:1px solid #000">
+ <center> <img src="images/dpc/shivani.jpg"  alt="Avatar" style="width:40%" ></center>
+  <div class="cont" >
+    <h4><b>Shivani(DPC)</b></h4> 
+    <p>15021017</p>
+    <p>C.M.T</p>
+    <p>shivanichaskar94@gmail.com</p>
+  </div>
+ 
+  </div>
+
+<div class="card" style="border:1px solid #000">
+ <center> <img src="images/dpc/babita.jpg"  alt="Avatar" style="width:40%" ></center>
+  <div class="cont" >
+    <h4><b>Babita Kumari(DPC)</b></h4> 
+    <p>14171005</p>
+    <p>Physiotherapy</p>
+    <p>babita676@gmail.com</p>
+  </div>
+ 
+  </div>
+</center>
+
+ </section>
+      </section>
+      <!--./row-->
+      <!--.test end-->
+      <!-- Test2-->
+      <!--Test2 end-->
+      <!--start footer-->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 col-lg-3">
+              <div class="widget_title">
+                <h4><span>How to reach us</span></h4>
+              </div>
+              <div class="widget_content">
+                <p>GURU JAMBHESHWAR UNIVERSITY OF SCIENCE AND TECHNOLOGY,HISSAR</p>
+                <ul class="contact-details-alt">
+                  <li><i class="fa fa-map-marker"></i>
+                    <p><strong>Address: </strong>NH-8,&nbsp;DELHI-SIRSA&nbsp;ROAD,
+                      167&nbsp;KM&nbsp; FROM&nbsp;DELHI,
+                      232&nbsp;KM&nbsp;FROM&nbsp;CHANDIGRAH.</p>
+                  </li>
+                  <li><i class="fa fa-user"></i>
+                    <p><strong>Phone</strong>:(01662)-263-057</p>
+                  </li>
+                  <li><i class="fa fa-envelope"></i>
+                    <p><strong>Email</strong>:<a href="mailto:gju.tpo@gmail.com">gju.tpo@gmail.com</a></p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="widget_title">
+                  <h4><span>Web Team</span></h4>
+                </div>
+                <div class="widget_content" style="text-align: center;">
+                  <div class="wtpopupBox"> <span class="wtinfoabv">Balvinder
+                      Singh<br>
+                      13014009<br>
+                      B.Tech (I.T.)</span> <img src="images/testimonials/1.png"
+                      class="rgtt"> </div>
+                  <div class="wtpopupBox"> <span class="wtinfoabv">Rahul
+                      Chanana<br>
+                      15014027<br>
+                      B.Tech (I.T.)</span> <img src="images/Rahul.png" class="rgtt">
+                  </div>
+                  <div class="wtpopupBox"> <span class="wtinfoabv">Gaurav<br>
+                      15013029<br>
+                      B.Tech (C.S.E.)</span> <img src="images/Gaurav.PNG" class="rgtt">
+                  </div>
+                  <br>
+                  <div class="wtpopupBox"> <span class="wtinfoblw">Birjesh <br>
+                      15014008<br>
+                      B.Tech (I.T.)</span> <img src="images/Birjesh.png" class="rgtt"
+                      height="110" width="110"> </div>
+                  <div class="wtpopupBox"> <img src="images/Diwanshi.png" class="rgtt">
+                    <span class="wtinfoblw">Diwanshi<br>
+                      15014011<br>
+                      B.Tech (I.T.)</span> </div>
+                  <div class="wtpopupBox"> <img src="images/nancy.png" class="rgtt"><span
+                      class="wtinfoblw">Nancy<br>
+                      15013019<br>
+                      B.Tech (I.T.)</span> </div>
+                  <span style="position: absolute; top: 188px; height: 16px; left: 213px; width: 71px;"><a
+                      href="web_team.html">Contact Us</a></span> </div>
+              </div>
+              <!--team-->
+              <div class="row">
+                <div class="col-sm-6 col-md-3 col-lg-3" style="text-align:center">
+                  <div class="widget_title">
+                    <h4><span>FB Updates</span></h4>
+                  </div>
+                  <div style="margin:10px auto 0 15px;display:inline-block"> <iframe
+                      src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftp.gjust%2F&amp;tabs=timeline&amp;width=250px&amp;height=200px&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=false&amp;appId"
+                      style="border:none;overflow:hidden;" scrolling="no" allowtransparency="true"
+                      frameborder="0" height="200px" width="250px"></iframe> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--end footer-->
+      <section class="footer_bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 ">
+              <p class="copyright">© Copyright 2017 T&amp;P CELL | Powered by <a
+                  href="#">GJU STUDENTS</a></p>
+            </div>
+            <div class="col-lg-6 ">
+              <div class="footer_social">
+                <ul class="footbot_social">
+                  <li><a class="fb" href="#." data-placement="top" data-toggle="tooltip"
+                      title="Facbook"><i class="fa fa-facebook"></i></a><br>
+                  </li>
+                  <li><a class="twtr" href="#." data-placement="top" data-toggle="tooltip"
+                      title="Twitter"><i class="fa fa-twitter"></i></a><br>
+                  </li>
+                  <li><a class="dribbble" href="#." data-placement="top" data-toggle="tooltip"
+                      title="Dribbble"><i class="fa fa-dribbble"></i></a><br>
+                  </li>
+                  <li><a class="skype" href="#." data-placement="top" data-toggle="tooltip"
+                      title="Skype"><i class="fa fa-skype"></i></a><br>
+                  </li>
+                  <li><a class="rss" href="#." data-placement="top" data-toggle="tooltip"
+                      title="RSS"><i class="fa fa-rss"></i></a><br>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.easing.1.3.js"></script>
+      <script src="js/retina-1.1.0.min.js"></script>
+      <script type="text/javascript" src="js/jquery.cookie.js"></script>
+      <!-- jQuery cookie -->
+      <script type="text/javascript" src="js/styleswitch.js"></script>
+      <!-- Style Colors Switcher -->
+      <script src="js/jquery.fractionslider.js" type="text/javascript" charset="utf-8"></script>
+      <script type="text/javascript" src="js/jquery.smartmenus.min.js"></script>
+      <script type="text/javascript" src="js/jquery.smartmenus.bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+      <script type="text/javascript" src="js/jflickrfeed.js"></script>
+      <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+      <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+      <script type="text/javascript" src="js/swipe.js"></script>
+      <script type="text/javascript" src="js/jquery-scrolltofixed-min.js"></script>
+      <script src="js/main.js"></script>
+      <!-- Start Style Switcher -->
+      <div class="switcher"></div>
+      <!-- End Style Switcher -->
+      <script>
+        $(window).load(function(){
+            $('.slider').fractionSlider({
+                'fullWidth': 			true,
+                'controls': 			true,
+                'responsive': 			true,
+                'dimensions': 			"1920,450",
+                'increase': 			true,
+                'pauseOnHover': 		true,
+                'slideEndAnimation': 	true,
+                'autoChange':           true
+            });
+        });
+    </script> </section>
+  </body>
+</html>

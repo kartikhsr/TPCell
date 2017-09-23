@@ -1,0 +1,143 @@
+.wbsddbox
+{
+    background-image:url(../images/wbsdd.png);
+    background-repeat:no-repeat; 
+    height:430px; 
+    width:300px;
+    display: inline-block;
+    position:relative; 
+    
+ 
+}
+.wbsddbox span
+{
+    position: absolute; 
+    left: 95px; 
+    top:90px; 
+    display:inline-block;
+}
+.wbsddbox table
+{
+    position:absolute; 
+    left: 30px; 
+    width: 259px; 
+    top: 230px; 
+    height: 120px;
+    font-family: font-awesome;
+    display:inline-block;
+    color:maroon;
+
+}
+
+
+.wbsddbox img
+{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+      border-radius:10px;
+}
+
+.wbddbox
+{
+    background-image:url(../images/wbdd.png);
+    background-repeat:no-repeat; 
+    height:430px; 
+    width:300px;
+    position:relative; 
+    display: inline-block;
+    
+ 
+}
+.wbddbox span
+{
+    position: absolute; 
+    left: 95px; 
+    top:90px; 
+    display:inline-block;
+}
+.wbddbox table
+{
+    position:absolute; 
+    left: 30px; 
+    width: 259px; 
+    top: 230px; 
+    height: 120px;
+    font-family: font-awesome;
+    display:inline-block;
+    color:maroon;
+
+}
+
+
+.wbddbox img
+{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+      border-radius:10px;
+}
+.wbdbox
+{
+    background-image:url(../images/wbd.png); 
+    background-repeat:no-repeat; 
+    height:430px; 
+    width:300px;
+    position:relative; 
+    display: inline-block;
+    
+}
+.wbdbox span
+{
+    position: absolute; 
+    left: 95px; 
+    top:90px; 
+    display: inline-block;
+}
+.wbdbox table
+{
+    position:absolute; 
+    left: 30px; 
+    width: 259px; 
+    top: 230px; 
+    height: 120px;
+    font-family: font-awesome;
+    color:maroon;
+    display:inline-block;
+
+}
+.wbdbox img
+{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+      border-radius:10px;
+}
+@media only screen and (min-width: 980px) and (max-width: 1280px)
+{
+  .wbddbox, .wbsddbox, .wbdbox{ background-size:100% 100%; max-width:auto; display:inline-block;}
+  .wbddbox span, .wbsddbox span, .wbdbox span{ max-width:auto;}
+  .wbsddbox table ,.wbddbox table,.wbdbox table{ max-width:auto; font-size :12px;}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 989px)
+{
+  .wbddbox, .wbsddbox, .wbdbox{ background-size:100% 100%; max-width:auto; display:inline-block;}
+  .wbddbox span, .wbsddbox span, .wbdbox span{ max-width:auto;}
+  .wbsddbox table ,.wbddbox table,.wbdbox table{ max-width:auto; font-size :12px;}
+}
+
+@media only screen and (max-width:768px)
+{
+  .wbddbox, .wbsddbox, .wbdbox{ background-size:100% 100%; max-width:auto; display:inline-block; }
+   .wbddbox span, .wbsddbox span, .wbdbox span{max-width:auto;}
+  .wbsddbox table ,.wbddbox table,.wbdbox table{ max-width:auto; font-size :12px;}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px)
+{
+  .wbddbox, .wbsddbox, .wbdbox{ background-size:100% 100%; max-width:auto; display:inline-block;}
+  .wbddbox span, .wbsddbox span, .wbdbox span{max-width:auto;}
+  .wbsddbox table ,.wbddbox table,.wbdbox table{ max-width:auto; font-size :12px ;}
+
+@media only screen and (max-width: 480px)
+{
+  .wbddbox, .wbsddbox, .wbdbox{ background-size:100% 100%; max-width:auto; display:inline-block;}
+  .wbddbox span, .wbsddbox span, .wbdbox span{max-width:auto;}
+  .wbsddbox table ,.wbddbox table,.wbdbox table{max-width:auto; font-size :12px;}
+}

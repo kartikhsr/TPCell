@@ -1,0 +1,435 @@
+<html class="no-js" lang="en">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Interview Tips</title>
+    <meta name="description" content="">
+    <!-- CSS FILES -->
+    <link rel="stylesheet" type="text/css" href="css/stylel.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" data-name="skins">
+    <link rel="stylesheet" href="css/layout/wide.css" data-name="layout">
+    <link rel="stylesheet" href="css/fractionslider.css">
+    <link rel="stylesheet" href="css/style-fraction.css">
+    <link rel="stylesheet" type="text/css" href="css/switcher.css" media="screen">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>    <![endif]-->
+    <!-- time -->
+    <script type="text/javascript">
+tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+function GetClock(){
+var d=new Date();
+var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
+if(nmin<=9) nmin="0"+nmin
+if(nsec<=9) nsec="0"+nsec;
+
+document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+"";
+}
+
+window.onload=function(){
+GetClock();
+setInterval(GetClock,1000);
+}
+</script><!---->
+  </head>
+  <body>
+    <section class="wrapper">
+      <!--Start Header-->
+      <header id="header" class="clearfix">
+        <div id="top-bar">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-7 hidden-xs top-info"><span>Phone:
+                  (01662)-263-057</span> <span><i class="fa fa-envelope"></i>Email:
+                  gju.tpo@gmail.com</span> <span style="margin-right:"><i id="clockbox"></i></span>
+              </div>
+              <div class="col-sm-5 top-info">
+                <ul>
+                  <li><a href="" class="my-tweet"><i class="fa fa-twitter"></i></a><br>
+                  </li>
+                  <li><a href="" class="my-facebook"><i class="fa fa-facebook"></i></a><br>
+                  </li>
+                  <li><a href="" class="my-skype"><i class="fa fa-skype"></i></a><br>
+                  </li>
+                  <li><a href="" class="my-pint"><i class="fa fa-pinterest"></i></a><br>
+                  </li>
+                  <li><a href="" class="my-rss"><i class="fa fa-rss"></i></a><br>
+                  </li>
+                  <li><a href="" class="my-google"><i class="fa fa-google-plus"></i></a><br>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- LOGO bar -->
+        <div id="logo-bar" class="clearfix">
+          <!-- Container -->
+          <div class="container"><a name="vc"></a>
+            <div class="row">
+              <!-- Logo / Mobile Menu -->
+              <div class="col-xs-12">
+                <div id="logo">
+                  <h1><a href="index.html"><img src="images/LOG.png" alt="Eve"></a></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Container / End --> </div>
+        <!--LOGO bar / End-->
+        <!-- Navigation
+================================================== -->
+        <div class="navbar navbar-default navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="row">
+              <div class="navbar-header"> <button type="button" class="navbar-toggle"
+                  data-toggle="collapse" data-target=".navbar-collapse"> <span
+                    class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+                  <span class="icon-bar"></span> <span class="icon-bar"></span>
+                </button> </div>
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li><a href="index.html">Home</a> </li>
+                  <li><a href="#">About Us</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="vision_mission.html">Vision &amp; Mission</a></li>
+                      <li><a href="role_activity.html">Role &amp; Activities</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Test Series</a>
+                    <ul class="dropdown-menu">
+                      <li> <a href="about.html">Aptitude Questions</a> </li>
+                      <li><a href="services.html">Coding Questions</a></li>
+                      <li><a href="faq.html">Company Wise Questions</a></li>
+                      <li><a href="sidebar-right.html">GD Topics</a></li>
+                      <li><a href="sidebar-left.html">Campus Interview Questions
+                          of Indian Navy</a></li>
+                      <li><a href="404-page.html">Online Quiz</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">For Recruiters</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="recruit_gju.html">Why Recruit at GJU</a></li>
+                      <li><a href="placement_procedure.html">Placement Procedure</a></li>
+                      <li><a href="placement_data.html">Placement Data</a></li>
+                      <li><a href="brochure.html">Placement Brochure</a></li>
+                      <li><a href="past_recruiters.html">Past Recruiters</a></li>
+                      <li><a href="facility.html">Facilities</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Announcements</a>
+                   <ul class="dropdown-menu">
+                      <li><a href="#">Upcoming Drives</a></li>
+                      <li><a href="t&w.html">Workshops and Seminars</a></li>
+                      <li><a href="tpresult.html">Placement Result</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Gallery</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="gallery.html">Images</a></li>
+                      <li><a href="gallery_news.html">News Section</a></li>
+                      <li><a href="video_gallery.html">Videos</a></li>
+                    </ul>
+                  </li>
+                  <li class="active"><a href="#">For Students</a>
+                    <ul class="dropdown-menu">
+                      <li class="active"><a href="interview.html">Interview Tips</a></li>
+                      <li><a href="resume.html">Resume Tips</a></li>
+                      <li><a href="gd.html">Gd Tips</a></li>
+                      <li><a href="training_letter.html">Training Letter</a></li>
+                      <li><a href="registration.html">Registration</a></li>
+                      <li><a href="do_and_dont.html">Do's &amp; Don't</a></li>
+                      <li><a href="feedback.html">Feedback &amp; Suggestion</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Contact</a>
+                  
+                   <ul class="dropdown-menu">
+                      <li><a href="tpc.html">TPC</a></li>
+                      <li><a href="dpc.html">DPC</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--/.row --> </div>
+          <!--/.container --> </div>
+      </header>
+      <!--End Header-->
+      <!--start wrapper-->
+      <section class="wrapper">
+        <section class="page_head">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <h2>Interview Tips</h2>
+                <nav id="breadcrumbs">
+                  <ul>
+                    <li>You are here:</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">For Student</a></li>
+                    <li>Interview Tips</li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="container">
+          <div> <img src="images/interview1.jpg" class="img6"> </div>
+          <ul class="do">
+            <li>
+              <p class="text1"><strong>Arrive on Time, Relaxed and Prepared for
+                  the Interview: </strong> There is no excuse ever for arriving
+                late to an interview. Short of a disaster, strive to arrive
+                about 15 minutes before your scheduled interview to complete
+                additional paperwork and allow yourself time to get settled.
+                Arriving a bit early is also a chance to observe the dynamics of
+                the workplace. The day before the interview, pack up extra
+                copies of your resume or CV and reference list. If you have a
+                portfolio or samples of your work, bring those along too.
+                Finally, remember to pack several pens and a pad of paper to jot
+                notes. Finally, as you get to the offices, shut off your cell
+                phone. (And if you were chewing gum, get rid of it.) </p>
+            </li>
+            <li>
+              <p class="text1"><strong>Make Good First Impressions: </strong>A
+                cardinal rule of interviewing is to be polite and offer warm
+                greetings to everyone you meet from the parking attendant to the
+                receptionist to the hiring manager. Employers often are curious
+                how job applicants treat staff members and your job offer could
+                easily be derailed if you’re rude or arrogant to any of the
+                staff. When it’s time for the interview, keep in mind that first
+                impressions the impression interviewers get in the first few
+                seconds of meeting you can make or break an interview. Make a
+                strong first impression by dressing well , arriving early and
+                when greeting your interviewer, stand, smile, make eye contact,
+                and offer a firm but not bone-crushing handshake. Remember that
+                having a positive attitude and expressing enthusiasm for the job
+                and employer are vital in the initial stages of the interview;
+                studies show that hiring managers make critical decisions about
+                job applicants in the first 20 minutes of the interview.</p>
+            </li>
+            <li>
+              <p class="text1"><strong>Dress Code: </strong>Students must be
+                formally dressed whenever they participate in any interaction
+                with a company. This office reserves the right to refuse
+                permission to a student to attend the selection process/PPT, if
+                they do not follow the following dress code:<br>
+                i. Shirt/T-shirts with collar &amp; sleeves without any printed
+                text. <br>
+                ii. Trousers[full pant].<br>
+                iii. Hair combed.<br>
+                iv. Shirt to be tucked in.<br>
+                v. Salwar Kameez or Formal Trousers and Shirt for Girl Students
+                vii. Polished Sandles/Shoes<br>
+                vi. Chappals/flip-flops NOT permitted </p>
+            </li>
+            <li>
+              <p class="text1"><strong>Discipline: </strong><br>
+                i. Students are expected to be punctual.<br>
+                ii. Students should maintain discipline and show ethical
+                behavior in every action they take during the placement process.
+                Any student found violating the discipline rules set by the
+                company or defaming the University name, will be disallowed from
+                the placements for the rest of the academic year.<br>
+                iii. Students found cheating or misbehaving in the selection
+                process (Test/GD/ Interview) will be disallowed from the
+                placements for the rest of the academic year.<br>
+                iv. Late comers for Aptitude Test/G.D./Interview will not be
+                allowed to appear for the selection process.<br>
+                <br>
+              </p>
+            </li>
+            <li>
+              <p class="text1"><strong>Remember the Importance of Body Language:
+                </strong>While the content of your interview responses is
+                paramount, poor body language can be a distraction at best or a
+                reason not to hire you at worst. Effective forms of body
+                language include smiling, eye contact, solid posture, active
+                listening, and nodding. Detrimental forms of body language
+                include slouching, looking off in the distance, playing with a
+                pen, fidgeting in a chair, brushing back your hair, touching
+                your face, chewing gum, or mumbling. Read more about perfecting
+                your body language in our article, The Unspoken Secrets of Job
+                Interviewing: How Your Nonverbal Presentation and Behaviors
+                Impact the Impression You Make.<br>
+                <br>
+              </p>
+            </li>
+            <li>
+              <p class="text1"><strong>Be Authentic, Upbeat, Focused, Confident,
+                  Candid, and Concise: </strong>Once the interview starts, the
+                key to success is the quality and delivery of your responses.
+                Your goal should always be authenticity, responding truthfully
+                to interview questions. At the same time, your goal is to get to
+                the next step, so you’ll want to provide focused responses that
+                showcase your skills, experience, and fit with the job and the
+                employer. Provide solid examples of solutions and
+                accomplishments but keep your responses short and to the point.
+                By preparing responses to common interview questions (see #2),
+                you’ll ideally avoid long, rambling responses that bore
+                interviewers. Always attempt to keep your interview responses
+                short and to the point. Finally, no matter how much an
+                interviewer might bait you, never badmouth a previous employer,
+                boss, or co-worker. The interview is about you and making your
+                case that you are the ideal candidate for the job. Read about
+                more interview mistakes in our article, Avoid These 10 Interview
+                Bloopers Critical Jobseeker Mistakes. </p>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 col-lg-3">
+              <div class="widget_title">
+                <h4><span>How to reach us</span></h4>
+              </div>
+              <div class="widget_content">
+                <p>GURU JAMBHESHWAR UNIVERSITY OF SCIENCE AND TECHNOLOGY,HISSAR</p>
+                <ul class="contact-details-alt">
+                  <li><i class="fa fa-map-marker"></i>
+                    <p><strong>Address: </strong>NH-8,&nbsp;DELHI-SIRSA&nbsp;ROAD,
+                      167&nbsp;KM&nbsp; FROM&nbsp;DELHI,
+                      232&nbsp;KM&nbsp;FROM&nbsp;CHANDIGRAH.</p>
+                  </li>
+                  <li><i class="fa fa-user"></i>
+                    <p><strong>Phone</strong>:(01662)-263-057</p>
+                  </li>
+                  <li><i class="fa fa-envelope"></i>
+                    <p><strong>Email</strong>:<a href="mailto:gju.tpo@gmail.com">gju.tpo@gmail.com</a></p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="widget_title">
+                  <h4><span>Web Team</span></h4>
+                </div>
+                <div class="widget_content" style="text-align: center;">
+                  <div class="wtpopupBox"> <span class="wtinfoabv">Balvinder
+                      Singh<br>
+                      13014009<br>
+                      B.Tech (I.T.)</span> <img src="images/testimonials/1.png"
+                      class="rgtt"> </div>
+                  <div class="wtpopupBox"> <span class="wtinfoabv">Rahul
+                      Chanana<br>
+                      15014027<br>
+                      B.Tech (I.T.)</span> <img src="images/Rahul.png" class="rgtt">
+                  </div>
+                  <div class="wtpopupBox"> <span class="wtinfoabv">Gaurav<br>
+                      15013029<br>
+                      B.Tech (C.S.E.)</span> <img src="images/Gaurav.PNG" class="rgtt">
+                  </div>
+                  <br>
+                  <div class="wtpopupBox"> <span class="wtinfoblw">Birjesh <br>
+                      15014008<br>
+                      B.Tech (I.T.)</span> <img src="images/Birjesh.png" class="rgtt"
+                      height="110" width="110"> </div>
+                  <div class="wtpopupBox"> <img src="images/Diwanshi.png" class="rgtt">
+                    <span class="wtinfoblw">Diwanshi<br>
+                      15014011<br>
+                      B.Tech (I.T.)</span> </div>
+                  <div class="wtpopupBox"> <img src="images/nancy.png" class="rgtt"><span
+                      class="wtinfoblw">Nancy<br>
+                      15013019<br>
+                      B.Tech (I.T.)</span> </div>
+                  <span style="position: absolute; top: 188px; height: 16px; left: 213px; width: 71px;"><a
+                      href="web_team.html">Contact Us</a></span> </div>
+              </div>
+              <!--team-->
+              <div class="row">
+                <div class="col-sm-6 col-md-3 col-lg-3" style="text-align:center">
+                  <div class="widget_title">
+                    <h4><span>FB Updates</span></h4>
+                  </div>
+                  <div style="margin:10px auto 0 15px;display:inline-block"> <iframe
+                      src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftp.gjust%2F&amp;tabs=timeline&amp;width=250px&amp;height=200px&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=false&amp;appId"
+                      style="border:none;overflow:hidden;" scrolling="no" allowtransparency="true"
+                      frameborder="0" height="200px" width="250px"></iframe> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--end footer-->
+      <section class="footer_bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 ">
+              <p class="copyright">© Copyright 2017 T&amp;P CELL | Powered by <a
+                  href="#">GJU STUDENTS</a></p>
+            </div>
+            <div class="col-lg-6 ">
+              <div class="footer_social">
+                <ul class="footbot_social">
+                  <li><a class="fb" href="#." data-placement="top" data-toggle="tooltip"
+                      title="Facbook"><i class="fa fa-facebook"></i></a><br>
+                  </li>
+                  <li><a class="twtr" href="#." data-placement="top" data-toggle="tooltip"
+                      title="Twitter"><i class="fa fa-twitter"></i></a><br>
+                  </li>
+                  <li><a class="dribbble" href="#." data-placement="top" data-toggle="tooltip"
+                      title="Dribbble"><i class="fa fa-dribbble"></i></a><br>
+                  </li>
+                  <li><a class="skype" href="#." data-placement="top" data-toggle="tooltip"
+                      title="Skype"><i class="fa fa-skype"></i></a><br>
+                  </li>
+                  <li><a class="rss" href="#." data-placement="top" data-toggle="tooltip"
+                      title="RSS"><i class="fa fa-rss"></i></a><br>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.easing.1.3.js"></script>
+      <script src="js/retina-1.1.0.min.js"></script>
+      <script type="text/javascript" src="js/jquery.cookie.js"></script>
+      <!-- jQuery cookie -->
+      <script type="text/javascript" src="js/styleswitch.js"></script>
+      <!-- Style Colors Switcher -->
+      <script src="js/jquery.fractionslider.js" type="text/javascript" charset="utf-8"></script>
+      <script type="text/javascript" src="js/jquery.smartmenus.min.js"></script>
+      <script type="text/javascript" src="js/jquery.smartmenus.bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+      <script type="text/javascript" src="js/jflickrfeed.js"></script>
+      <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+      <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+      <script type="text/javascript" src="js/swipe.js"></script>
+      <script type="text/javascript" src="js/jquery-scrolltofixed-min.js"></script>
+      <script src="js/main.js"></script>
+      <!-- Start Style Switcher -->
+      <div class="switcher"></div>
+      <!-- End Style Switcher -->
+      <script>
+        $(window).load(function(){
+            $('.slider').fractionSlider({
+                'fullWidth': 			true,
+                'controls': 			true,
+                'responsive': 			true,
+                'dimensions': 			"1920,450",
+                'increase': 			true,
+                'pauseOnHover': 		true,
+                'slideEndAnimation': 	true,
+                'autoChange':           true
+            });
+        });
+    </script> </section>
+  </body>
+</html>
