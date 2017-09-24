@@ -11,7 +11,7 @@
       <title>Placement Procedure</title>
       <meta name="description" content="">
       <!-- CSS FILES -->
-      <link rel="stylesheet" type="text/css" href="css/stylel.css">
+      <link rel="stylesheet" type="text/css" href="css/style1.css">
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"
@@ -140,7 +140,7 @@ setInterval(GetClock,1000);
       <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/jquery.easing.1.3.js"></script>
-      <script src="js/retina-1.1.0.min.js"></script>
+      
       <script type="text/javascript" src="js/jquery.cookie.js"></script>
       <!-- jQuery cookie -->
       <script type="text/javascript" src="js/styleswitch.js"></script>

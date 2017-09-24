@@ -17,7 +17,7 @@
 <!-- favicon end -->
     <meta name="description" content="">
    
-    <link rel="stylesheet" type="text/css" href="css/stylel.css">
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" data-name="skins">
@@ -476,7 +476,7 @@ GJU being my alma-mater I have seen it evolve from a modest 2 building infrastru
 For me getting chance to study at Haryana technical University,  Hisar was an important milestone of my life. The department of Food Technology is having state of the art facilities be it Classrooms or research laboratories. Under the guidance of Gurus who are expert of their respective subjects I could develop my knowledge and skills which still helps me in my routine professional life. The faculty and overall ambiance is so open and enriching that I could develop my fundamentals on food science as well as I could groom my personality through various opportunities be it seminars, projects or presentations or industrial trainings. The syllabus and study programs were so relevant that till date I find myself comfortable in understanding any new product or process coming across the shop floor to commercialise it.</p>
                       </blockquote>
                       <div class="icon-tr"></div>
-                      <div class="testimonial-review"> <img alt="Santosh Bhakar" src="images/testimonials/santosh.png">
+                      <div class="testimonial-review"> <img alt="Santosh Bhakar" src="images/testimonials/santosh.PNG">
                         <h1>Santosh Bhakar<small>ITC</small></h1>
                       </div>
                     </div>
@@ -508,7 +508,7 @@ For me getting chance to study at Haryana technical University,  Hisar was an im
       <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/jquery.easing.1.3.js"></script>
-      <script src="js/retina-1.1.0.min.js"></script>
+      
       <script type="text/javascript" src="js/jquery.cookie.js"></script>
       <!-- jQuery cookie -->
       <script type="text/javascript" src="js/styleswitch.js"></script>
