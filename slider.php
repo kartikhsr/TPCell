@@ -21,9 +21,7 @@
                 <div class="slide"> <img src="images/fraction-slider/5.png"
                   data-in="fade" data-out="fade" height="auto" width="1920">
                 <!--6- slide background--> </div>
-                <div class="slide"> <img src="images/fraction-slider/6.png"
-                  data-in="fade" data-out="fade" height="auto" width="1920">
-                <!--7- slide background--> </div>
+       
             </div>
           </div>
           <!--End Slider-->

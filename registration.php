@@ -10,7 +10,7 @@
                         <title>Registration</title>
                         <meta name="description" content="">
                         <!-- CSS FILES -->
-                        <link rel="stylesheet" type="text/css" href="css/stylel.css">
+                        <link rel="stylesheet" type="text/css" href="css/style1.css">
                         <link rel="stylesheet" href="css/bootstrap.min.css">
                         <link rel="stylesheet" href="css/style.css">
                         <link rel="stylesheet" type="text/css" href="css/style.css"
@@ -192,7 +192,7 @@ name="Submit" class="div2 div3" value="Submit" type="submit"></td>
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/retina-1.1.0.min.js"></script>
+    
     <script type="text/javascript" src="js/jquery.cookie.js"></script>
     <!-- jQuery cookie -->
     <script type="text/javascript" src="js/styleswitch.js"></script>

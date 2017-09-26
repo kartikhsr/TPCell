@@ -78,7 +78,7 @@
 
                <div class = "row">
                   <div class="col-sm-12 text-right" >
-                      <a href="web_team.php">Contact Us</a></span> 
+                      <a href="web_team.php">Contact Us</a> 
                   </div>
               </div>
 
